@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: hykrdb.cmsfrokrxjf7.us-west-2.rds.amazonaws.com (MySQL 5.6.27-log)
+# Host: localhost (MySQL 5.7.16)
 # Database: hyfer
-# Generation Time: 2017-05-30 10:53:59 +0000
+# Generation Time: 2017-05-30 13:43:57 +0000
 # ************************************************************
 
 
@@ -63,13 +63,13 @@ LOCK TABLES `groups` WRITE;
 
 INSERT INTO `groups` (`id`, `group_name`, `starting_date`, `archived`)
 VALUES
-	(43,'Class 5','2016-07-24 00:00:00',0),
-	(44,'Class 6','2016-09-25 00:00:00',0),
+	(43,'Class 5','2016-07-24 00:00:00',1),
+	(44,'Class 6','2016-09-25 00:00:00',1),
 	(45,'Class 7','2016-11-06 00:00:00',0),
 	(46,'Class 8','2017-01-29 00:00:00',0),
 	(47,'Class 9','2017-03-12 00:00:00',0),
-	(48,'Class 10','2017-05-20 22:00:00',0),
-	(49,'Class 11','2017-07-29 22:00:00',0);
+	(48,'Class 10','2017-05-21 00:00:00',0),
+	(49,'Class 11','2017-07-30 00:00:00',0);
 
 /*!40000 ALTER TABLE `groups` ENABLE KEYS */;
 UNLOCK TABLES;
